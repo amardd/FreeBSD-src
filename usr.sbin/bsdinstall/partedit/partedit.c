@@ -89,7 +89,7 @@ main(int argc, const char **argv)
 
 	init_dialog(stdin, stdout);
 	if (!sade_mode)
-		dialog_vars.backtitle = __DECONST(char *, "pfSense Installer");
+		dialog_vars.backtitle = __DECONST(char *, "IN300 Installer");
 	dialog_vars.item_help = TRUE;
 	nscroll = i = 0;
 
@@ -113,7 +113,7 @@ main(int argc, const char **argv)
 			return (error);
 		}
 	} else {
-		prompt = "Create partitions for pfSense. No changes will be "
+		prompt = "Create partitions for IN300. No changes will be "
 		    "made until you select Finish.";
 	}
 
